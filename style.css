@@ -1,0 +1,35 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.board{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    gap: 1px;
+}
+.container{
+    display: flex;
+    flex-shrink: 1;
+    justify-content: center;
+    
+}
+.squares{
+    border: 1px solid;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+
+}
+input{
+    border-radius: 10px;
+    border: 1px solid;
+}
+button{
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+;}
